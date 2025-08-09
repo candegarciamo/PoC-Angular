@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Remera",
+    "price": 10000.99,
+    "image": "https://media.istockphoto.com/id/483960103/es/foto/camiseta-negra-frontal-en-blanco-con-trazado-de-recorte.jpg?s=612x612&w=0&k=20&c=WTtkplvVBMxKTStHvG6rzKlw1G246bJ5apgJcNiFT_Q="
+  },
+  {
+    "id": 2,
+    "name": "Pantalon RxJS",
+    "price": 22000.5,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQRE_dviyxrQJJMWu4u7AOpCTvc-2vES75Wg&s"
+  },
+  {
+    "id": 3,
+    "name": "Sticker Angular Signals",
+    "price": 200.0,
+    "image": "https://dotbadges.com/wp-content/uploads/2021/05/Stickerview1-6-510x510.webp"
+  },
+  {
+    "id": 4,
+    "name": "Libro",
+    "price": 13900.9,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwLX4csNM0iQ0HwMEg0v-W98AhQEj7Q6oN7g&s"
+  },
+  {
+    "id": 5,
+    "name": "Mochila Dev",
+    "price": 49000.5,
+    "image": "https://www.moov.com.ar/on/demandware.static/-/Sites-365-dabra-catalog/default/dw1e4b6974/products/NIDN3592-010/NIDN3592-010-1.JPG"
+  },
+  {
+    "id": 6,
+    "name": "Mouse Inalámbrico",
+    "price": 9000.95,
+    "image": "https://support.microsoft.com/images/es-es/e8384959-ad1a-1b95-762b-2861496b886e"
+  }
+]
