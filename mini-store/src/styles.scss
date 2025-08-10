@@ -7,7 +7,7 @@
 }
 
 .product-card {
-  border: 1px solid #ddd;
+  border: 1px solid #d80000;
   padding: 10px;
   border-radius: 8px;
   text-align: center;
@@ -33,7 +33,7 @@
 }
 
 button {
-  background-color: #2a9d8f;
+  background-color: #d83ad0;
   color: white;
   border: none;
   border-radius: 5px;
@@ -42,7 +42,7 @@ button {
 }
 
 button[disabled] {
-  background-color: #ccc;
+  background-color: #5964ff;
   cursor: not-allowed;
 }
 
@@ -54,5 +54,5 @@ button[disabled] {
 }
 
 .cart-item button {
-  background-color: #e63946;
+  background-color: #570e14;
 }
