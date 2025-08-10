@@ -1,13 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
 .product-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   gap: 15px;
   margin-bottom: 20px;
 }
 
 .product-card {
-  border: 1px solid #d80000;
+  border: 1px solid #d800a9;
   padding: 10px;
   border-radius: 8px;
   text-align: center;
@@ -54,5 +54,45 @@ button[disabled] {
 }
 
 .cart-item button {
-  background-color: #570e14;
+  display: block;
+    /* que cada botón ocupe toda la línea */
+    margin-bottom: 10px;
+    /* espacio debajo */
+    width: 80px;
+    /* opcional: que ocupen todo el ancho */
+    box-sizing: border-box;
+    border-radius: 8px;
+    /* bordes más redondeados */
+    padding: 10px;
+    background-color: #af1818;
+    /* mismo color que usás */
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.cart-fixed button:last-child {
+  margin-bottom: 0;
+  /* quitar margen al último botón */
+}
+
+.cart-fixed {
+  position: fixed;
+  top: 10px;
+  /* distancia desde arriba */
+  right: 10px;
+  /* distancia desde la derecha */
+  width: 280px;
+  /* ancho fijo */
+  max-height: 80vh;
+  /* que no sea más alto que la pantalla */
+  overflow-y: auto;
+  /* scroll interno si hay muchos items */
+  background: white;
+  border: 1px solid #ccc;
+  padding: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  z-index: 1000;
+  /* para que esté por encima */
 }
