@@ -1,2 +1,30 @@
-<p>product-list works!</p>
-<!-- Este archivo no se usa, el HTML está en línea en el .ts -->
+<h2>Productos</h2>
+<div class="product-grid">
+  <div *ngFor="let product of products$ | async" class="product-card">
+    <img [src]="product.image" alt="{{ product.name }}" />
+    <h3>{{ product.name }}</h3>
+    <p>Precio: {{ product.price | currency }}</p>
+    <button (click)="addToCart(product)">Agregar al carrito</button>
+  </div>
+</div>
+
+<hr />
+
+<div class="cart-fixed">
+  <h4>Carrito({{ cartCount() }})</h4>
+  
+  <div *ngFor="let item of cartItems()" class="cart-item"> 
+    <span>{{ item.name }} - {{ item.price | currency }} x {{ item.quantity }}</span>
+    <div class="cart-buttons">
+      <button (click)="addToCart(item)">+</button>
+      <button (click)="removeOneFromCart(item.id)">-</button>
+      <button (click)="removeAllFromCart(item.id)">Eliminar</button>
+    </div>
+  </div>
+
+  <div *ngIf="cartCount() > 0" class="cart-summary">
+    <p><strong>Total:</strong> {{ cartTotal() | currency }}</p>
+    <button (click)="clearCart()">Vaciar carrito</button>
+    <button (click)="buy()">Comprar</button>
+  </div>
+</div>
