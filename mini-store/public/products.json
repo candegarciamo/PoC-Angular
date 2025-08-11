@@ -7,13 +7,13 @@
   },
   {
     "id": 2,
-    "name": "Pantalon RxJS",
+    "name": "Pantalon",
     "price": 22000.5,
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQRE_dviyxrQJJMWu4u7AOpCTvc-2vES75Wg&s"
   },
   {
     "id": 3,
-    "name": "Sticker Angular Signals",
+    "name": "Sticker Angular",
     "price": 200.0,
     "image": "https://dotbadges.com/wp-content/uploads/2021/05/Stickerview1-6-510x510.webp"
   },
@@ -25,7 +25,7 @@
   },
   {
     "id": 5,
-    "name": "Mochila Dev",
+    "name": "Mochila",
     "price": 49000.5,
     "image": "https://www.moov.com.ar/on/demandware.static/-/Sites-365-dabra-catalog/default/dw1e4b6974/products/NIDN3592-010/NIDN3592-010-1.JPG"
   },
