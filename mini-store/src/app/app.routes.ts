@@ -8,5 +8,4 @@ export const routes: Routes = [
         (m) => m.ProductListComponent
       ),
   },
-  // Podés agregar más rutas como 'admin' o 'cart' si querés
 ];
