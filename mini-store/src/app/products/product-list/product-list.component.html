@@ -1,4 +1,4 @@
-<h2>Productos</h2>
+<h2 class="titulo-productos">Productos</h2>
 <div class="product-grid">
   <div *ngFor="let product of products$ | async" class="product-card">
     <img [src]="product.image" alt="{{ product.name }}" />
